@@ -91,11 +91,17 @@
     "@angular-devkit/core" "0.6.8"
     rxjs "^6.0.0"
 
-"@angular/animations@^6.0.3":
+"@angular/animations@^6.0.9":
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.0.9.tgz#c077b8d7542117e42365e14f0f030ea9f9a7db78"
   dependencies:
     tslib "^1.9.0"
+
+"@angular/cdk@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-6.4.0.tgz#4339b72d96acdf1335b7b2ba1a94c07898df595e"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/cli@~6.0.8":
   version "6.0.8"
@@ -141,6 +147,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/flex-layout@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-6.0.0-beta.16.tgz#e2749c2609743ff4655b09ae8873709c7a62aeae"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/forms@^6.0.3":
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.0.9.tgz#4252626875319f09e03d6b5eb61ea8d274061b8f"
@@ -156,6 +168,14 @@
 "@angular/language-service@^6.0.3":
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.9.tgz#46663338185d321dc5cabeed72bec695775a104d"
+
+"@angular/material@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.4.0.tgz#7c68be455059aab5feae969b22307880237d2354"
+  dependencies:
+    tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
 
 "@angular/platform-browser-dynamic@^6.0.3":
   version "6.0.9"
@@ -3975,6 +3995,12 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
+"ng6-json-schema-form@git+https://github.com/panicst8/ng6-json-schema-form.git":
+  version "1.0.0"
+  resolved "git+https://github.com/panicst8/ng6-json-schema-form.git#51f3ed437da3b27e1432919ec88071115f0a8f2f"
+  dependencies:
+    tslib "^1.9.0"
+
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
@@ -4399,6 +4425,10 @@ parse-json@^4.0.0:
 parse5@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
+
+parse5@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.0.0.tgz#4d02710d44f3c3846197a11e205d4ef17842b81a"
 
 parsejson@0.0.3:
   version "0.0.3"
@@ -5878,7 +5908,7 @@ tsickle@^0.29.0:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
