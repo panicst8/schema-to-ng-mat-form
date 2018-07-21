@@ -8,21 +8,37 @@ import {
   JsonSchemaFormModule,
   MaterialDesignFrameworkModule,
 } from 'projects/json-schema-form/src/public_api';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatIconModule,
+  MatMenuModule,
+  MatSelectModule,
+  MatToolbarModule,
+} from '../../node_modules/@angular/material';
+import { AceEditorDirective } from './ace-editor.directive';
 import { AppComponent } from './app.component';
-import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    AceEditorDirective,
     // JsonSchemaFormComponent
   ],
   imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
     FlexLayoutModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule,
-    BrowserModule,
-    MaterialModule,
+    MatButtonModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatIconModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatToolbarModule,
     MaterialDesignFrameworkModule,
     JsonSchemaFormModule.forRoot(MaterialDesignFrameworkModule),
   ],

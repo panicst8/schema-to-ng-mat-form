@@ -23,6 +23,7 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "brace": "^0.11.1",
     "core-js": "^2.5.4",
     "ng6-json-schema-form": "git+https://github.com/panicst8/ng6-json-schema-form.git",
     "rxjs": "^6.0.0",
